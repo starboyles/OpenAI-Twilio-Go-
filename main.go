@@ -3,7 +3,7 @@ package main
 
 import (
 	"github.com/gin-gonic/gin"
-	"your-module-path/controllers"
+	"github.com/starboyles/twilio-gemini-assistant/controllers"
 )
 
 func main() {
