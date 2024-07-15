@@ -29,8 +29,8 @@ func SendSMS(c *gin.Context) {
 
 	// Define message parameters
 	params := &twilioApi.CreateMessageParams{}
-	params.SetTo("+233200356369")
-	params.SetFrom("+15855492374")
+	params.SetTo("")
+	params.SetFrom("")
 	params.SetBody("Hello from Go!")
 
 	// Send message
